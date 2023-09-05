@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("de01dc44-3ec2-4720-8dc1-a596bd5a996f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConfigureJwtAuthenticationDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

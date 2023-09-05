@@ -35,8 +35,8 @@ namespace ConfigureJwtAuthenticationDemo.Controllers
             return Ok(newUser.UserName);
         }
 
-        [Authorize]
-        [HttpGet("{id:int}")]
+        [Authorize (Roles = "Admin")]
+        [HttpGet]
         public ActionResult<User> GetMemeberById(int id)
         {
             var user = UsersStore.GetAllUsers().FirstOrDefault(i => i.Id == id);
@@ -44,7 +44,7 @@ namespace ConfigureJwtAuthenticationDemo.Controllers
             {
                 return BadRequest("User Not Found");
             }
-            
+
             return Ok(user.UserName);
         }
 

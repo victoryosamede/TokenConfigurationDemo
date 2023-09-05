@@ -40,3 +40,7 @@ C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenti
 C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\obj\Debug\net7.0\ConfigureJwtAuthenticationDemo.pdb
 C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\obj\Debug\net7.0\ConfigureJwtAuthenticationDemo.genruntimeconfig.cache
 C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\obj\Debug\net7.0\ref\ConfigureJwtAuthenticationDemo.dll
+C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\bin\Debug\net7.0\Scrutor.dll
+C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\hp\OneDrive\Desktop\ConfigureJwtAuthenticationDemo\ConfigureJwtAuthenticationDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

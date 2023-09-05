@@ -9,8 +9,8 @@ namespace ConfigureJwtAuthenticationDemo.Services
         {
             _users.AddRange(new List<User>()
         {
-            new User {Id = 1, UserName="Bart Allen", PasswordHash=BCrypt.Net.BCrypt.HashPassword("password")},
-            new User {Id = 2, UserName="Bart Allen", PasswordHash=BCrypt.Net.BCrypt.HashPassword("password")},
+            new User {Id = 1, UserName="Bart Allen", PasswordHash=BCrypt.Net.BCrypt.HashPassword("password"), Role = "Application User"},
+            new User {Id = 2, UserName="Bart Allen", PasswordHash=BCrypt.Net.BCrypt.HashPassword("password"), Role = "Admin"},
         });
         }
 

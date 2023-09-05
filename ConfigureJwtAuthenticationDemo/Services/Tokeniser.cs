@@ -18,7 +18,8 @@ namespace ConfigureJwtAuthenticationDemo.Services
         public string GenerateToken(User user)
         {
             List<Claim> claims = new List<Claim> {
-                new Claim(ClaimTypes.Name, user.UserName)
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Role, "Admin")
             };
             var getKey = Environment.GetEnvironmentVariable("KEY");
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(getKey));
